@@ -180,7 +180,7 @@ Essa abordagem reduz inserções desnecessárias e permite manter a base atualiz
 ## 📸 Demonstração
 
 ### Dashboard:
-<img width="1358" height="603" alt="image" src="https://github.com/user-attachments/assets/951daf4c-41cb-4c48-9548-a5aead521cfe" />
+<img width="1280" height="576" alt="tela-financial" src="https://github.com/user-attachments/assets/46b64ea1-a641-4199-8989-5438d374d3ea" />
 
 ### Atualização dos Dados:
 <img width="1280" height="568" alt="chrome-capture-2026-08-22" src="https://github.com/user-attachments/assets/e0176340-4b99-44cd-b6dd-0e132780554e" />
