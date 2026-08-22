@@ -97,9 +97,8 @@ Para a previsão de preços futuros foi utilizado o Prophet.
 O modelo utiliza os preços históricos como entrada e gera uma estimativa para períodos futuros.
 
 O usuário pode definir o horizonte da previsão diretamente no dashboard.
-```
+
 ⚠️ Aviso: as previsões apresentadas possuem finalidade exclusivamente educacional e analítica. O projeto não constitui recomendação ou aconselhamento financeiro.
-```
 
 ## 🛠️ Tecnologias
 
