@@ -114,7 +114,7 @@ O usuário pode definir o horizonte da previsão diretamente no dashboard.
 | Git/GitHub    | Versionamento        |
 
 ## 🏗️ Arquitetura
-<img width="1414" height="2000" alt="Documento A4 Floral Bege e Branco" src="https://github.com/user-attachments/assets/4fcb810c-fac3-4aec-9555-366e8accc08d" />
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/b6bd0d6a-8fdd-496a-a3eb-712e286c44c1" />
 
 ## 📂 Estrutura
 ```
