@@ -114,7 +114,7 @@ O usuário pode definir o horizonte da previsão diretamente no dashboard.
 | Git/GitHub    | Versionamento        |
 
 ## 🏗️ Arquitetura
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/b6bd0d6a-8fdd-496a-a3eb-712e286c44c1" />
+<img width="1672" height="419" alt="ChatGPT Image 22 de ago  de 2026, 14_13_40" src="https://github.com/user-attachments/assets/6784356e-74a5-4428-8288-974481eaf761" />
 
 ## 📂 Estrutura
 ```
