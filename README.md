@@ -30,8 +30,10 @@ A aplicação possui um cliente dedicado para comunicação com a Alpha Vantage.
 - tratar respostas da API;
 - disponibilizar os dados para o pipeline de transformação.
 
-A integração foi isolada no módulo: api/client.py
-
+A integração foi isolada no módulo: 
+```
+api/client.py
+```
 Isso evita que regras relacionadas à API fiquem espalhadas pelo restante da aplicação.
 
 ## 🔄 Ingestão incremental
@@ -83,7 +85,10 @@ O projeto realiza análises sobre os dados históricos dos ativos. Entre os cál
 - preço mínimo;
 - resumo estatístico.
 
-Os cálculos estão centralizados no módulo: analysis/metrics.py
+Os cálculos estão centralizados no módulo: 
+```
+analysis/metrics.py
+```
 
 ## 🔮 Previsão
 
@@ -135,10 +140,53 @@ financial-market-dashboard/
 ├── app.py               # Interface com usuário
 ├── main.py              # Back-end de ingestão dos dados 
 ├── seed_assets.py       # Cadastro dos ativos na aplicação
-├── requirements.txt
-├── .env.example
+├── requirements.txt     # Bibliotecas necessárias para utilização
+├── .env.example         # Exemplo de arquivo necessário
 └── README.md
 ```
+
+## 🖥️ Utilizando o dashboard
+
+Ao iniciar a aplicação, o usuário poderá selecionar um ativo através do menu:
+```
+Selecionar ativo
+       ↓
+Selecionar período
+       ↓
+Visualizar dados
+       ↓
+Analisar histórico
+       ↓
+Gerar previsão
+```
+
+## 🔄 Atualização dos dados
+
+O dashboard possui uma funcionalidade de atualização dos dados.
+
+Ao solicitar uma atualização, o sistema verifica a última data armazenada para o ativo.
+
+Caso os dados estejam atualizados:
+```
+✓ Dados já estão atualizados.
+```
+Caso existam dados novos:
+```
+✓ Novos dados encontrados.
+✓ Banco de dados atualizado.
+```
+Essa abordagem reduz inserções desnecessárias e permite manter a base atualizada.
+
+## 📸 Demonstração
+
+### Dashboard:
+<img width="1358" height="603" alt="image" src="https://github.com/user-attachments/assets/951daf4c-41cb-4c48-9548-a5aead521cfe" />
+
+### Atualização dos Dados:
+<img width="1280" height="568" alt="chrome-capture-2026-08-22" src="https://github.com/user-attachments/assets/e0176340-4b99-44cd-b6dd-0e132780554e" />
+
+### Previsão:
+<img width="1280" height="571" alt="chrome-capture-2026-08-22 (1)" src="https://github.com/user-attachments/assets/1de3fa9f-0694-49ea-87a4-eeef2030654b" />
 
 ## ⚙️ Como executar
 Clone o repositório:
@@ -191,49 +239,6 @@ Execute a aplicação:
 ```
 streamlit run app.py
 ```
-
-## 🖥️ Utilizando o dashboard
-
-Ao iniciar a aplicação, o usuário poderá selecionar um ativo através do menu:
-```
-Selecionar ativo
-       ↓
-Selecionar período
-       ↓
-Visualizar dados
-       ↓
-Analisar histórico
-       ↓
-Gerar previsão
-```
-
-## 🔄 Atualização dos dados
-
-O dashboard possui uma funcionalidade de atualização dos dados.
-
-Ao solicitar uma atualização, o sistema verifica a última data armazenada para o ativo.
-
-Caso os dados estejam atualizados:
-```
-✓ Dados já estão atualizados.
-```
-Caso existam dados novos:
-```
-✓ Novos dados encontrados.
-✓ Banco de dados atualizado.
-```
-Essa abordagem reduz inserções desnecessárias e permite manter a base atualizada.
-
-## 📸 Demonstração
-
-### Dashboard:
-<img width="1358" height="603" alt="image" src="https://github.com/user-attachments/assets/951daf4c-41cb-4c48-9548-a5aead521cfe" />
-
-### Atualização dos Dados:
-<img width="1280" height="568" alt="chrome-capture-2026-08-22" src="https://github.com/user-attachments/assets/e0176340-4b99-44cd-b6dd-0e132780554e" />
-
-### Previsão:
-<img width="1280" height="571" alt="chrome-capture-2026-08-22 (1)" src="https://github.com/user-attachments/assets/1de3fa9f-0694-49ea-87a4-eeef2030654b" />
 
 ## 🎓 Objetivo do projeto
 
