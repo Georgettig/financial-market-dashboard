@@ -113,6 +113,22 @@ O usuário pode definir o horizonte da previsão diretamente no dashboard.
 | Prophet       | Forecast             |
 | Git/GitHub    | Versionamento        |
 
+## 📈 Análises e Visualizações
+
+**Receita por Estado**
+Visualização geográfica da distribuição de receita entre os estados brasileiros. O tamanho dos marcadores representa o valor da receita gerada em cada localidade.
+
+**Evolução Mensal da Receita**
+Gráfico de linhas que apresenta a evolução da receita ao longo dos meses, permitindo comparar o desempenho entre diferentes anos e identificar tendências temporais.
+
+**Receita por Categoria de Produto**
+Gráfico de barras que compara a receita total de cada categoria de produto, facilitando a identificação das categorias com maior contribuição financeira.
+
+**Desempenho dos Vendedores**
+Análise comparativa composta por duas visualizações:
+- Receita total gerada por vendedor.
+- Quantidade de vendas realizadas por vendedor.
+
 ## 🏗️ Arquitetura
 <img width="1672" height="419" alt="ChatGPT Image 22 de ago  de 2026, 14_13_40" src="https://github.com/user-attachments/assets/6784356e-74a5-4428-8288-974481eaf761" />
 
